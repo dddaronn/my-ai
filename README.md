@@ -8,7 +8,7 @@
 На любом ПК:
 
 ```bash
-pip install git+https://github.com/ТВОЙ_АККАУНТ/my-ai
+pip install git+https://github.com/dddaronn/my-ai
 ```
 
 ## Использование
@@ -37,7 +37,3 @@ print(otvet)
 Файл `phone_bridge.py` копируется на телефон (Pydroid/Termux), туда вписывается ключ и запускается.
 ПК переключается в `USE_PHONE = True`. Телефон сам находит ПК в USB-сети (`PC_IP = "auto"`).
 
-## ⚠️ Безопасность
-
-Файл `api_key.txt` **никогда** не попадает в репозиторий (он в `.gitignore`).
-Не вставляй настоящий ключ в `phone_bridge.py` перед заливкой на GitHub.
